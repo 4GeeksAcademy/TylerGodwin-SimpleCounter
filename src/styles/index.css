@@ -1,12 +1,29 @@
+body {
+    background-image: linear-gradient(to right, rgb(225, 225, 225), rgb(80, 150, 250), lightskyblue, rgb(225, 225, 225),  rgb(80, 150, 250), lightskyblue);
+}
 
-/* 
+.row {
+    border: solid rgb(170, 170, 170) 10px;
+    background-color: black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 3px 5px #888888;
+    margin-top: 15%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.col {
+    border-radius: 30%;
+    background-color: rgb(25, 25, 25);
+    margin: 3px;
+    box-shadow: 2px 2px 1px 2px #888888;
+}
 
-*/
+i {
+    margin-top: 25%;
+    color: rgb(80, 150, 250);
+}
+
+.counter {
+    display: flex;
+    font-size: 100px;
+    color: lightskyblue;
+}
